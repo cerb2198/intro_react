@@ -1,17 +1,23 @@
+//ES EL PUNTO DE PARTIDA DE NUESTRA APLICACION
+
 import React from 'react';
 import ReactDOM from 'react-dom/client';
-import './index.css';
-import App from './App';
-import reportWebVitals from './reportWebVitals';
+import Login from './components/Login/Login';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <App />
+    <Login />
   </React.StrictMode>
 );
 
-// If you want to start measuring performance in your app, pass a function
-// to log results (for example: reportWebVitals(console.log))
-// or send to an analytics endpoint. Learn more: https://bit.ly/CRA-vitals
-reportWebVitals();
+/*
+EN LA LINEA 7 LO QUE LE ESTAMOS DICIENDO ES QUE CREE UNA COMUNICACION ENTRE EL ELEMENTO DIV
+QUE TIENE POR ID 'root' Y LAS PROPIEDADES DE REACT, ESTO PERMITE QUE REACT PUEDA MANDAR INFORMACION
+AL html Y LA VAYA MOSTRANDO A TRAVES DE ESE ELEMENTO DIV
+*/
+
+/*
+EN LA LINEA 8 A LA 12 BASICAMENTE LE ESTAMOS DICIENDO QUE EN EL DIV CON ID 'root' ME RENDERICE,
+ES DECIR ME PINTE UNICAMENTE EL CONTENIDO QUE HAY EN EL COMPONENTEN <Login/>
+*/
