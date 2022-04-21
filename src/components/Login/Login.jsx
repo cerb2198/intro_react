@@ -9,9 +9,9 @@ const Login = () => {
     //Para mirar el css metete al archivo login.css que esta en la carpeta Login.
     <div className="contenedor">
 
-      <img src={imgUser}></img> {/*Así se vincula la imagen:<img src={nombre_del_import}></img>*/}
 
       <form className="form__login">
+        <img className="imagen" src={imgUser}></img> {/*Así se vincula la imagen:<img src={nombre_del_import}></img>*/}
         {/*Si quieres puedes darles clases a los elementos de acá para abajo, por si quieres estilizarlos mas...*/}
         <label>Correo</label>
         <input type="text"></input>
@@ -19,6 +19,17 @@ const Login = () => {
         <input type="password"></input>
         <button>Enviar</button>
       </form>
+
+      <form className="form__login">
+        <img className="imagen" src={imgUser}></img> {/*Así se vincula la imagen:<img src={nombre_del_import}></img>*/}
+        {/*Si quieres puedes darles clases a los elementos de acá para abajo, por si quieres estilizarlos mas...*/}
+        <label>Correo</label>
+        <input type="text"></input>
+        <label>Contraseña</label>
+        <input type="password"></input>
+        <button>Enviar</button>
+      </form>
+
     </div> 
     
   );
