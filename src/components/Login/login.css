@@ -4,14 +4,10 @@
 }
 /*El estilo del contenedor es este*/
 .contenedor{
-    display: grid;
-
-    grid-template-columns: 1fr 1fr;
+    display: flex;
 
     width:100%; /*ESTA PROPIEDAD EXISTE INDEPENDIENTE DE SI "DISPLAY" ES FLEX O NO, LE ESTOY DICIENDO QUE TOME EL 100% DEL ANCHO*/
     height:100vh; /*MISMA HISTORIA LE ESTOY DICIENDO QUE TOME EL 100% DEL ALTO, PERO SE LO DIGO CON 100VH, PORQUE PARA EL HEIGTH CON % NO FUNCIONA BIEN*/
-
-    background-color: aqua;
 
     gap: 1rem;
 
