@@ -1,0 +1,64 @@
+
+.navbar__expandido{
+    position: fixed;
+    top:0;
+    left: 0;
+
+    width: 10%;
+    height: 100%;
+
+    display:flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+
+    background-color: #FF8C32;
+}
+
+.navbar__link{
+    font-family:Tahoma;
+    color: #06113C;
+    font-weight: bold;
+    font-size: 100%;
+    text-align: center;
+    cursor: pointer;
+
+    width:100%;
+    padding: 1rem 0rem;
+}
+
+.navbar__link:hover{
+    background-color:#DDDDDD;
+}
+
+.navbar__icono{
+    font-size: 200%;
+    color: white;
+    cursor: pointer;
+    padding: 1rem;
+}
+
+.navbar__icono:hover{
+    background-color:white;
+    color: #FF8C32;
+    border-radius: 1rem;
+}
+
+/* navbar_retraido */
+
+
+.navbar__retraido{
+    position: fixed;
+    top:0;
+    left: 0;
+
+    width: 6%;
+    height: 100%;
+    background-color: #FF8C32;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    align-items: center;
+}
+

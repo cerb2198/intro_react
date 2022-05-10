@@ -3,11 +3,12 @@
 import React from 'react';
 import ReactDOM from 'react-dom/client';
 import Login from './components/Login/Login';
+import Navbar from './components/Navbar/Navbar';
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
-    <Login />
+    <Navbar />
   </React.StrictMode>
 );
 
